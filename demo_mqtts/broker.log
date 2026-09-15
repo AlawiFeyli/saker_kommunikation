@@ -1,0 +1,26 @@
+1789479732: mosquitto version 2.0.22 starting
+1789479732: Config loaded from mosquitto.conf.
+1789479732: Opening ipv4 listen socket on port 8883.
+1789479732: mosquitto version 2.0.22 running
+1789479732: New connection from 127.0.0.1:49556 on port 8883.
+1789479732: OpenSSL Error[0]: error:0A000418:SSL routines::tlsv1 alert unknown ca
+1789479732: Client <unknown> disconnected: Protocol error.
+1789479732: New connection from 127.0.0.1:49570 on port 8883.
+1789479732: New client connected from 127.0.0.1:49570 as auto-3C1E48F1-6AB3-39AB-B47C-D95417420136 (p2, c1, k60).
+1789479732: No will message specified.
+1789479732: Sending CONNACK to auto-3C1E48F1-6AB3-39AB-B47C-D95417420136 (0, 0)
+1789479732: Received SUBSCRIBE from auto-3C1E48F1-6AB3-39AB-B47C-D95417420136
+1789479732: 	iot25/room-a/temperature (QoS 0)
+1789479732: auto-3C1E48F1-6AB3-39AB-B47C-D95417420136 0 iot25/room-a/temperature
+1789479732: Sending SUBACK to auto-3C1E48F1-6AB3-39AB-B47C-D95417420136
+1789479732: New connection from 127.0.0.1:49576 on port 8883.
+1789479732: New client connected from 127.0.0.1:49576 as auto-4402B874-37E8-4903-FE4F-75DEEAABC10C (p2, c1, k60).
+1789479732: No will message specified.
+1789479732: Sending CONNACK to auto-4402B874-37E8-4903-FE4F-75DEEAABC10C (0, 0)
+1789479732: Received PUBLISH from auto-4402B874-37E8-4903-FE4F-75DEEAABC10C (d0, q0, r0, m0, 'iot25/room-a/temperature', ... (53 bytes))
+1789479732: Sending PUBLISH to auto-3C1E48F1-6AB3-39AB-B47C-D95417420136 (d0, q0, r0, m0, 'iot25/room-a/temperature', ... (53 bytes))
+1789479732: Received DISCONNECT from auto-4402B874-37E8-4903-FE4F-75DEEAABC10C
+1789479732: Client auto-4402B874-37E8-4903-FE4F-75DEEAABC10C disconnected.
+1789479732: Received DISCONNECT from auto-3C1E48F1-6AB3-39AB-B47C-D95417420136
+1789479732: Client auto-3C1E48F1-6AB3-39AB-B47C-D95417420136 disconnected.
+1789479733: mosquitto version 2.0.22 terminating

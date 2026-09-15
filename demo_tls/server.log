@@ -1,0 +1,5 @@
+HTTPS listening on https://localhost:8443
+HTTP "GET /api/readings/latest HTTP/1.1" 401 -
+AUTH denied
+HTTP "GET /api/readings/latest HTTP/1.1" 200 -
+AUTH accepted
